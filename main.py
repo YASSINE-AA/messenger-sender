@@ -12,6 +12,7 @@ class FbBot:
         op = webdriver.ChromeOptions()
         op.add_argument("headless")
         self.driver = webdriver.Chrome(options=op)
+        # Replace user id by the user you want to send messages to.
         result = self.driver.get(
             "https://www.messenger.com/t/user-id")
         self.driver.find_element_by_name("email").send_keys(username)
