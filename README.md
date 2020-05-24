@@ -14,7 +14,7 @@ pip3 install selenium
 ```
 Next, you need to download Chrome's webdriver from [this](https://sites.google.com/a/chromium.org/chromedriver/downloads) site.
 
-After downloading the appropriate compressed archive file, you want to extract that to a folder and follow these steps:
+After downloading the appropriate compressed archive file, you'll want to extract that to a folder and follow these steps:
 
 For windows: simply click on the .exe file and it'll magically work.
 
@@ -25,7 +25,7 @@ sudo chown root:root /usr/bin/chromedriver
 sudo chmod +x /usr/bin/chromedriver
 ```
 
-You also need to install BeautifulSoup:
+You'll also need to install BeautifulSoup:
 
 If you're on windows:
 ```
